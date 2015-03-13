@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeJam2015
+namespace Practice
 {
     public static class InputReaderHelper
     {

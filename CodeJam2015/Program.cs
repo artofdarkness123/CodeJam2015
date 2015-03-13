@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeJam2015
+namespace Practice
 {
     class Program
     {
         static void Main(string[] args)
         {
+            MinesweeperMaster.DoWork();
+            Console.WriteLine("\nDONE");
+            Console.ReadKey();
         }
     }
 }
