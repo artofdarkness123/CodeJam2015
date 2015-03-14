@@ -29,14 +29,31 @@ namespace Practice
                         continue;
                     }
 
+                    char[,] board = new char[rcm.FirstOrDefault(),rcm.ToArray()[1]];
+
+                    int mineCount = 0;
+
                     for (int r = 0; r < rcm.FirstOrDefault(); r++)
                     {
                         for (int c = 0; c < rcm.ToArray()[1]; c++)
                         {
-                            Console.Write(".");
+                            if (mineCount < rcm.LastOrDefault())
+                            {
+                                board[r, c] = '*';
+                                Console.Write("*");
+                                mineCount++;
+                            }
+                            else
+                            {
+                                board[r, c] = '.';
+                                Console.Write(".");
+                            }
                         }
                         Console.Write(Environment.NewLine);
                     }
+
+                    
+
                 }
             }
         }
