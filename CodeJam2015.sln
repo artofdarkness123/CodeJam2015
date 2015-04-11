@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.22310.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "CodeJam2015\Practice.csproj", "{4A81C6A8-22C2-4BE2-A7B3-C13F533A9C2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualifierProb1StandingOvation", "QualifierProb1StandingOvation\QualifierProb1StandingOvation.csproj", "{9CFEFF87-4B5F-44B2-86AF-FDE42B60F7A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualifierProb3Dijkstra", "QualifierProb3Dijkstra\QualifierProb3Dijkstra.csproj", "{E66EC3E2-E9BD-432E-AC7A-9F1E27832627}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,14 @@ Global
 		{4A81C6A8-22C2-4BE2-A7B3-C13F533A9C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A81C6A8-22C2-4BE2-A7B3-C13F533A9C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A81C6A8-22C2-4BE2-A7B3-C13F533A9C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFEFF87-4B5F-44B2-86AF-FDE42B60F7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFEFF87-4B5F-44B2-86AF-FDE42B60F7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFEFF87-4B5F-44B2-86AF-FDE42B60F7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFEFF87-4B5F-44B2-86AF-FDE42B60F7A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E66EC3E2-E9BD-432E-AC7A-9F1E27832627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E66EC3E2-E9BD-432E-AC7A-9F1E27832627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E66EC3E2-E9BD-432E-AC7A-9F1E27832627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E66EC3E2-E9BD-432E-AC7A-9F1E27832627}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
